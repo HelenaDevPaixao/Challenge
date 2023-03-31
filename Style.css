@@ -1,0 +1,64 @@
+
+
+.main{
+     position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+
+}
+
+
+#Header{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(158, 144, 144);
+}
+
+#Nav{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(12, 36, 143);
+
+}
+
+#Nav2{
+    position: relative;
+    height: 550px;
+    width: 250px;
+    background-color: rgb(163, 162, 119);
+    float: left;
+   
+}
+
+#Section{
+    position: relative;
+    height: 550px;
+    width: 850px;
+    background-color: rgb(241, 183, 241);
+    float: left;
+    
+}
+
+
+#Aside{
+    position: relative;
+    height: 550px;
+    width: 233px;
+    background-color: rgb(187, 45, 216);
+    margin-top: 0px;
+    margin-left: 1100px ;
+   
+
+}
+
+#Footer{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
