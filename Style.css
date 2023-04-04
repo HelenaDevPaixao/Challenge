@@ -1,64 +1,109 @@
 
+@charset "UTF-8";
 
-.main{
-     position: relative;
-    height: 100px;
+body{
+    background: blanchedalmond;
+}
+#header1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 90px;
     width: 100%;
-    background-color: rgb(0, 0, 0);
-    align-items: center;
-
+    background: rgb(158, 144, 144);
 }
 
-
-#Header{
+#nav1{
+    color: white;
     position: relative;
-    height: 100px;
-    width: 100%;
-    background-color: rgb(158, 144, 144);
-}
-
-#Nav{
-    position: relative;
+    margin-top: 1%;
     height: 50px;
     width: 100%;
-    background-color: rgb(12, 36, 143);
+    background: rgb(12, 36, 143);
 
 }
 
-#Nav2{
-    position: relative;
-    height: 550px;
-    width: 250px;
-    background-color: rgb(163, 162, 119);
+#nav2, #section, #aside{
+    display: flex;
+    justify-content: center;
+    width: 33.333%;
+    height: 700px;
     float: left;
-   
-}
-
-#Section{
-    position: relative;
-    height: 550px;
-    width: 850px;
-    background-color: rgb(241, 183, 241);
-    float: left;
-    
-}
-
-
-#Aside{
-    position: relative;
-    height: 550px;
-    width: 233px;
-    background-color: rgb(187, 45, 216);
-    margin-top: 0px;
-    margin-left: 1100px ;
-   
+    margin-bottom: 1%;
+    margin-top: 1%;
 
 }
 
-#Footer{
+#nav2{
+    background: rgb(163, 162, 119);
+    width: 15%;
+}
+
+#section{
+    background: rgb(241, 183, 241);
+    width: 68%;
+    margin-right: 1%;
+    margin-left: 1%;
     position: relative;
+}
+
+#section, #header2, #div1, #paragrafo, #divs{
+    display: flex;
+    flex-direction: column;
+}
+
+#header2{
+    background: white;
+    width: 90%;
+    height: 10%;
+    position: relative;
+    bottom: 3%;
+    left: 5%;
+}
+
+#div1{
+    background: saddlebrown;
+    width: 90%;
+    height: 35%;
+    position: relative;
+    bottom: 1%;
+    left: 5%;
+}
+#paragrafo{
+    background: cornflowerblue;
+    width: 90%;
+    height: 20%;
+    position: relative;
+    bottom: -1%;
+    left: 5%;
+}
+
+#divs{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -1%;
+    left: 4%;
+
+} 
+
+#div2, #div3, #div4{
+    background: gray;
+    width: 28.7%;
+    height: 170px;
+    margin: 1%;
+}
+#aside{
+    background: rgb(187, 45, 216);
+    width: 15%;
+}
+
+#footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
     height: 50px;
     width: 100%;
-    background-color: rgb(0, 0, 0);
-
+    background: rgb(0, 0, 0);    
 }
